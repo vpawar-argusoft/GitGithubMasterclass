@@ -1,6 +1,9 @@
 // This are my notes on GitGitHub Master class
 
+
+
 Section 1 - Getting started with Git
+
 
 git config --global user.name "Vishal Pawar"          // configure name for automation
 git config --global user.email "vpawar@argusoft.com"    // configure email id
@@ -16,10 +19,10 @@ git config --global core.editor "code --wait"  // To configure main code editor
 
   10. Reviewing file changes by (git diff index.html)
 
-  
 
 
 Section 2 - Getting started with GitHub
+
 
 12. Diff in git and GitHub
 13. Create your account    
@@ -43,6 +46,13 @@ git branch --set-upstream-to=origin/master master. // This command is to automat
 
 git pull  //  Now only use instead of above 2 commands
 
+17. Check changes with git status 
+
 git fetch //sync from github to local git
 git status //check status after sync
 git pull 
+
+
+
+Section 3 - Fork and clone
+
