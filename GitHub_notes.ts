@@ -8,9 +8,9 @@ git remote add origin https://github.com/vpawar-argusoft/GitGithubMasterclass.gi
 git add GitHub_notes.ts  // Add file to github
 git commit -m "Add typescript file" // Commit file added to Github
 
+14. Push Your local repo to Github
 
-// to push data from git to github
-git push origin master
+git push origin master // to push data from git to github
 
 
 // To configure main code editor
