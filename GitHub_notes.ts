@@ -1,5 +1,14 @@
 // This are my notes on GitGitHub Master class
 
+git config --global user.name "Vishal Pawar"          // configure name for automation
+git config --global user.email "vpawar@argusoft.com"    // configure email id
+
+git remote add origin https://github.com/vpawar-argusoft/GitGithubMasterclass.git  // Add folder to GitHUB
+
+git add GitHub_notes.ts  // Add file to github
+git commit -m "Add typescript file" // Commit file added to Github
+
+
 // to push data from git to github
 git push origin master
 
@@ -14,7 +23,3 @@ git pull origin master
 git branch --set-upstream-to=origin/master master
 //  Now only use
 git pull
-
-git fetch // after editing in gitHUb to update in local git folder we need to fetch 
-git status // get the status of local git repository what needed to do next
-git pull // then we can pull data from github
