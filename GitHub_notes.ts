@@ -56,3 +56,11 @@ git pull
 
 Section 3 - Fork and clone
 
+19. Cloning the repository 
+
+  1. mkdir <filename> // make folder/file 
+  2. dir -> see where your pointer is
+  3. clone the file by -> git clone <site link of your forked repo>
+  4. git remote -> check whether pointer is assigned at origin 
+  
+
