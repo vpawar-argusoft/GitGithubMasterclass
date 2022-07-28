@@ -29,8 +29,8 @@ Section 2 - Getting started with GitHub
 
 git remote add origin https://github.com/vpawar-argusoft/GitGithubMasterclass.git  // Add folder to GitHUB
 
-git add GitHub_notes.ts  // Add file to github
-git commit -m "Add typescript file" // Commit file added to Github
+git add GitHub_notes.text  // Add file to github
+git commit -m "Add text file" // Commit file added to Github
 
 14. Push Your local repo to Github
 
