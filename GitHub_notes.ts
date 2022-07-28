@@ -63,4 +63,21 @@ Section 3 - Fork and clone
   3. clone the file by -> git clone <site link of your forked repo>
   4. git remote -> check whether pointer is assigned at origin 
   
+20,21  Exploring git log and file details from git
+  1. git log // will give you changes last made or commits till date
+  2. git diff 284cdd63 3a7fa138 // will give diff in 2 commits change log // you can use first 8 digits of commit id
+  3. git show HEAD // give info about most recent commit
+  4. git show 284cdd63 // give info about particular commit, it is merge of (log + diff)
+  5. git show HEAD~4 // give info of 3 commits before head commit
+  6. git diff HEAD~2 HEAD~7 // no need to know commit id
+  7. git annotate gulpfile.babel.js  // give info about particular file changes -- who,what,when changed
+
+22. Exploring log and file details from Github
+23. Undoing changes and reverting commits
+  1. git checkout --<filename>. // use to revert before file is staged/added+pushed to github
+  2. git rseset HEAD --(and then after it use) --> git checkout --<filename>. // to revert back most recent file after file is staged/added+pushed to github
+  3. git checkout 284cdd63 // to revert particular commit
+  4. git add . // will add all modified files to git
+  5. git checkout -- .  //will revert all recent changes
+  
 
