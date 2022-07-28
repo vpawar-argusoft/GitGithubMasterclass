@@ -103,13 +103,13 @@ Section 4. Working with branches
     1. git checkout --track origin/test // setup to track remote test branch (added + switched to it)
     2. git checkout --track origin/<branch name> // it adds + selects branch from remote to local + tracks it
     
-  40. Graph the branches on terminal
+  41. Graph the branches on terminal
     1. git log --graph // checks how ,when branches merged
     
-  41. Merging branches in terminal
+  32. Merging branches in terminal
     1. git merge <branch name which tobe addded> <branch name where prevous branch is being added> --> git merge a b
     2. git branch -d add-bootstrap // deletes given branch
     
-  42. Pull request in Github
+  33. Pull request in Github
   
 
